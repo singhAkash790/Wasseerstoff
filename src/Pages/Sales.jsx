@@ -7,7 +7,7 @@ export const Sales = () => {
     <div>
        <div className="flex m-0 p-0">
         <div className=""> <Overview/></div>
-        <div className="absolute top-[1100px] left-[390px] "><Graph /></div>
+        <div className="absolute top-[1100px] left-[390px] z-10 "><Graph /></div>
        </div>
 
     </div>

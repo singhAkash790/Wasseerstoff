@@ -10,7 +10,7 @@ export const Popup = () => {
     <div className="">
       <div className="absolute top-[230px] left-[593px]  w-[180px] h-[72px] ">
         <div className=" flex flex-col  ">
-          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 shadow-2xl px-2.5 items-center justify-start gap-[12px]">
+          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 shadow-2xl px-2.5 items-center justify-start gap-[12px] hover:scale-125">
             <div className=" p-2 text-2xl bg-sky-400 text-white rounded-md shadow-sm">
               <TbBuildingBank />
             </div>
@@ -31,7 +31,7 @@ export const Popup = () => {
       {/* ----------2---------- */}
       <div className="absolute top-[148px] right-[698px]  w-[180px] h-[72px]">
         <div className=" flex flex-col  ">
-          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row shadow-md py-1.5 px-2.5 items-center justify-start gap-[12px]">
+          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row shadow-md py-1.5 px-2.5 items-center justify-start gap-[12px] hover:scale-125">
             <div className="p-2 text-2xl bg-[#7BDDA2] text-white rounded-md shadow-sm">
               <TbBuildingCommunity />
             </div>
@@ -52,7 +52,7 @@ export const Popup = () => {
       {/* ---------------shanghai---------------------- */}
       <div className="absolute top-[298px] left-[1500px]  w-[180px] h-[72px]">
         <div className=" flex flex-col ">
-          <div className=" rounded-2xl bg-snow shadow-lg overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px]">
+          <div className=" rounded-2xl bg-snow shadow-lg overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] hover:scale-125">
             <div className=" p-2 text-2xl bg-[#E8A5FF] text-white rounded-md shadow-sm">
               <TbBuildingPavilon />
             </div>
@@ -73,7 +73,7 @@ export const Popup = () => {
       {/* ------------------------Giza------------------------- */}
       <div className="absolute top-[364px] left-[1135px]  w-[180px] h-[72px]">
         <div className=" flex flex-col  ">
-          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] shadow-lg">
+          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] hover:scale-125 shadow-lg">
             <div className=" p-2 text-2xl bg-[#FF7E7E] text-white rounded-md shadow-sm">
               <BiBuildings />
             </div>
@@ -94,7 +94,7 @@ export const Popup = () => {
       {/* --------------------------------queenisland */}
       <div className="absolute top-[606px] left-[1637px]  w-[180px] h-[72px]">
         <div className=" flex flex-col  ">
-          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] shadow-lg">
+          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] hover:scale-125 shadow-lg">
             <div className=" p-2 text-2xl bg-sky-600 text-white rounded-md shadow-sm">
               <FaRegBuilding />
             </div>
@@ -114,7 +114,7 @@ export const Popup = () => {
       </div>
       <div className="absolute top-[477px] left-[716px]  w-[180px] h-[72px]">
         <div className=" flex flex-col  ">
-          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] shadow-lg">
+          <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] hover:scale-125 shadow-lg">
             <div className=" p-2 text-2xl bg-[#F8A243] text-white rounded-md shadow-sm">
               <RiBuilding2Line />
             </div>
