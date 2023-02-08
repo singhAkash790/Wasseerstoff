@@ -11,7 +11,7 @@ export const Popup = () => {
       <div className="absolute top-[230px] left-[593px]  w-[180px] h-[72px] ">
         <div className=" flex flex-col  ">
           <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 shadow-2xl px-2.5 items-center justify-start gap-[12px]">
-            <div className=" p-2 bg-sky-400 text-white rounded-md shadow-sm">
+            <div className=" p-2 text-2xl bg-sky-400 text-white rounded-md shadow-sm">
               <TbBuildingBank />
             </div>
             <div className="overflow-hidden flex flex-col  justify-start">
@@ -32,7 +32,7 @@ export const Popup = () => {
       <div className="absolute top-[148px] right-[698px]  w-[180px] h-[72px]">
         <div className=" flex flex-col  ">
           <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row shadow-md py-1.5 px-2.5 items-center justify-start gap-[12px]">
-            <div className="py-1.5 px-2.5 bg-[#7BDDA2] text-white rounded-md shadow-sm">
+            <div className="p-2 text-2xl bg-[#7BDDA2] text-white rounded-md shadow-sm">
               <TbBuildingCommunity />
             </div>
             <div className="overflow-hidden flex flex-col  justify-start">
@@ -53,7 +53,7 @@ export const Popup = () => {
       <div className="absolute top-[298px] left-[1500px]  w-[180px] h-[72px]">
         <div className=" flex flex-col ">
           <div className=" rounded-2xl bg-snow shadow-lg overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px]">
-            <div className=" p-2 bg-[#E8A5FF] text-white rounded-md shadow-sm">
+            <div className=" p-2 text-2xl bg-[#E8A5FF] text-white rounded-md shadow-sm">
               <TbBuildingPavilon />
             </div>
             <div className="overflow-hidden flex flex-col  justify-start">
@@ -74,7 +74,7 @@ export const Popup = () => {
       <div className="absolute top-[364px] left-[1135px]  w-[180px] h-[72px]">
         <div className=" flex flex-col  ">
           <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] shadow-lg">
-            <div className=" py-2 px-2.5 bg-[#FF7E7E] text-white rounded-md shadow-sm">
+            <div className=" p-2 text-2xl bg-[#FF7E7E] text-white rounded-md shadow-sm">
               <BiBuildings />
             </div>
             <div className="overflow-hidden flex flex-col  justify-start">
@@ -95,7 +95,7 @@ export const Popup = () => {
       <div className="absolute top-[606px] left-[1637px]  w-[180px] h-[72px]">
         <div className=" flex flex-col  ">
           <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] shadow-lg">
-            <div className=" p-2 bg-sky-600 text-white rounded-md shadow-sm">
+            <div className=" p-2 text-2xl bg-sky-600 text-white rounded-md shadow-sm">
               <FaRegBuilding />
             </div>
             <div className="overflow-hidden flex flex-col  justify-start">
@@ -115,7 +115,7 @@ export const Popup = () => {
       <div className="absolute top-[477px] left-[716px]  w-[180px] h-[72px]">
         <div className=" flex flex-col  ">
           <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] shadow-lg">
-            <div className=" p-2 bg-[#F8A243] text-white rounded-md shadow-sm">
+            <div className=" p-2 text-2xl bg-[#F8A243] text-white rounded-md shadow-sm">
               <RiBuilding2Line />
             </div>
             <div className="overflow-hidden flex flex-col  justify-start">

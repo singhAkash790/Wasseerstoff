@@ -6,8 +6,8 @@ export const Sales = () => {
   return (
     <div>
        <div className="flex m-0 p-0">
-        <p className="flex m-0"> <Overview/></p>
-        <p className="absolute top-[1100px] left-[390px] "><Graph className='bg-white'/></p>
+        <div className=""> <Overview/></div>
+        <div className="absolute top-[1100px] left-[390px] "><Graph /></div>
        </div>
 
     </div>

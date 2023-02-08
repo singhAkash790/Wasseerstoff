@@ -156,7 +156,7 @@ const Bubblechart = () => {
                 <BubbleChart/>
             </div>
             {/* bottom content */}
-            <div className=" z-30 w-[673px] h-[146px] flex flex-row gap-[143px] justify-between items-center lead">
+            <div className=" z-30 w-[673px] h-[146px] flex flex-row gap-[143px] pt-10 justify-between items-center lead">
 
 
               <div className=" flex flex-col justify-center items-center  z-40">
@@ -202,28 +202,28 @@ const Bubblechart = () => {
           <div className=" gap-5 z-20 flex justify-center items-end flex-col">
             <div className="mb-[14px]">
               <div className="h-[92px] w-[46px] bg-white justify-center items-center gap-[24px] text-2xl   text-[#5A5A89] shadow-lg rounded-lg flex-col flex">
-                <div className="hover:text-sky-500 hover:cursor-pointer">+</div>
-                <div className="hover:text-sky-500 hover:cursor-pointer text-3xl">
+                <div className="hover:text-sky-500 hover:scale-125 hover:cursor-pointer">+</div>
+                <div className="hover:text-sky-500 hover:scale-125 hover:cursor-pointer text-3xl">
                   -
                 </div>
               </div>
             </div>
             <div className="">
               <div className="h-[46px] w-[46px] bg-white justify-center items-center gap-[24px] text-2xl   text-[#5A5A89] shadow-lg rounded-lg flex-col flex">
-                <div className="hover:text-red-500 hover:cursor-pointer">
+                <div className="hover:text-red-500 hover:scale-125 hover:cursor-pointer">
                   <TbCircleDot />
                 </div>
               </div>
             </div>
             <div className="">
               <div className="h-[136px] w-[46px] bg-white justify-center items-center gap-[20px] text-2xl  py-2 mt-[14px]  text-[#5A5A89] shadow-lg rounded-lg flex-col flex">
-                <div className="hover:text-red-500 hover:cursor-pointer pt-2">
+                <div className="hover:text-yellow-500 hover:scale-125 hover:cursor-pointer pt-2">
                   <BiGitBranch />
                 </div>
-                <div className="hover:text-red-500 hover:cursor-pointer">
+                <div className="hover:text-yellow-500 hover:scale-125 hover:cursor-pointer">
                   <BiGitCommit />
                 </div>
-                <div className="hover:text-red-500 hover:cursor-pointer pb-2">
+                <div className="hover:text-yellow-500 hover:scale-125 hover:cursor-pointer pb-2">
                   <BiGitCompare />
                 </div>
               </div>
