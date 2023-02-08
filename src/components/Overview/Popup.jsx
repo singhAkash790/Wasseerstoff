@@ -1,6 +1,9 @@
 import React from "react";
 import { MdArrowDropDown } from "react-icons/md";
-import { TbBuildingBank, TbBuildingCommunity } from "react-icons/tb";
+import { TbBuildingBank, TbBuildingCommunity, TbBuildingPavilon} from "react-icons/tb";
+import {FaRegBuilding} from "react-icons/fa"
+import {RiBuilding2Line} from "react-icons/ri"
+import { BiBuildings } from "react-icons/bi"
 
 export const Popup = () => {
   return (
@@ -46,8 +49,9 @@ export const Popup = () => {
           </div>
         </div>
       </div>
+      {/* ---------------shanghai---------------------- */}
       <div className="absolute top-[298px] left-[1500px]  w-[180px] h-[72px]">
-        <div className=" flex flex-col justify-start items-center leading-none ">
+        <div className=" flex flex-col ">
           <div className=" rounded-2xl bg-snow shadow-lg overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px]">
             <div className=" p-2 bg-[#E8A5FF] text-white rounded-md shadow-sm">
               <TbBuildingPavilon />
@@ -61,16 +65,17 @@ export const Popup = () => {
               </div>
             </div>
           </div>
-          <div className="flex relative justify-start -top-[16px] items-center  ">
+          <div className="flex relative justify-center -top-[16px] items-center  ">
             <MdArrowDropDown className=" text-white text-4xl  " />
           </div>
         </div>
       </div>
+      {/* ------------------------Giza------------------------- */}
       <div className="absolute top-[364px] left-[1135px]  w-[180px] h-[72px]">
-        <div className=" flex flex-col justify-start items-center leading-none ">
+        <div className=" flex flex-col  ">
           <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] shadow-lg">
-            <div className=" p-2 bg-sky-400 text-white rounded-md shadow-sm">
-              <SiInternetarchive />
+            <div className=" py-2 px-2.5 bg-[#FF7E7E] text-white rounded-md shadow-sm">
+              <BiBuildings />
             </div>
             <div className="overflow-hidden flex flex-col  justify-start">
               <div className="relative tracking-[0.44px] leading-[20px] font-light">
@@ -81,36 +86,37 @@ export const Popup = () => {
               </div>
             </div>
           </div>
-          <div className="flex relative justify-start -top-[16px] items-center  ">
+          <div className="flex relative justify-center -top-[16px] items-center  ">
             <MdArrowDropDown className=" text-white text-4xl  " />
           </div>
         </div>
       </div>
+      {/* --------------------------------queenisland */}
       <div className="absolute top-[606px] left-[1637px]  w-[180px] h-[72px]">
-        <div className=" flex flex-col justify-start items-center leading-none ">
+        <div className=" flex flex-col  ">
           <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] shadow-lg">
-            <div className=" p-2 bg-sky-400 text-white rounded-md shadow-sm">
-              <SiInternetarchive />
+            <div className=" p-2 bg-sky-600 text-white rounded-md shadow-sm">
+              <FaRegBuilding />
             </div>
             <div className="overflow-hidden flex flex-col  justify-start">
               <div className="relative tracking-[0.44px] leading-[20px] font-light">
-                Queensisland
+                Queenisland
               </div>
               <div className="relative text-base tracking-[0.15px] leading-[28px] font-semibold">
                 6,097,321
               </div>
             </div>
           </div>
-          <div className="flex relative justify-start -top-[16px] items-center  ">
+          <div className="flex relative justify-center -top-[16px] items-center  ">
             <MdArrowDropDown className=" text-white text-4xl  " />
           </div>
         </div>
       </div>
-      <div className="absolute top-[477] left-[716px]  w-[180px] h-[72px]">
-        <div className=" flex flex-col justify-start items-center leading-none ">
+      <div className="absolute top-[477px] left-[716px]  w-[180px] h-[72px]">
+        <div className=" flex flex-col  ">
           <div className=" rounded-2xl bg-snow overflow-hidden flex flex-row py-1.5 px-2.5 items-center justify-start gap-[12px] shadow-lg">
-            <div className=" p-2 bg-sky-400 text-white rounded-md shadow-sm">
-              <SiInternetarchive />
+            <div className=" p-2 bg-[#F8A243] text-white rounded-md shadow-sm">
+              <RiBuilding2Line />
             </div>
             <div className="overflow-hidden flex flex-col  justify-start">
               <div className="relative tracking-[0.44px] leading-[20px] font-light">
@@ -121,7 +127,7 @@ export const Popup = () => {
               </div>
             </div>
           </div>
-          <div className="flex relative justify-start -top-[16px] items-center  ">
+          <div className="flex relative justify-center -top-[16px] items-center  ">
             <MdArrowDropDown className=" text-white text-4xl  " />
           </div>
         </div>
