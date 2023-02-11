@@ -5,21 +5,24 @@
 3. type cli command npm install
 4. then type cli command npmm start
 
-<!--Technology stack/libraries used  -->
+Technology stack/libraries used 
  React is used for the developmen
  Tailwind CSS frame work is used for css
  React icons is used for the icons
  G font is used for the font
  
-<!-- Deployment link/: A vercel or any other public hosted link   -->
+Deployment link/: A vercel or any other public hosted link  
  
  https://akash-singh-project4.netlify.app
  
-<!-- Vedio link  -->
+Vedio link 
  
  
+ .
+ .
+ .
  
-<!-- approch   -->
+  approch  
 1. to code navbar or footer on components/Essentials folder
 2.  then go for the first page
 3.  creating a component for background map this took 9000 lines of code and ths effects the speed of rendering
