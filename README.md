@@ -18,8 +18,9 @@ Deployment link/: A vercel or any other public hosted link
 Vedio link 
  
  
-https://clipchamp.com/watch/WlkKObHxXpU
- 
+Chrome View Demo : https://clipchamp.com/watch/WlkKObHxXpU
+The react view ans stucture explain : https://clipchamp.com/watch/c8TgN4kIB2X
+
   approch  
 1. to code navbar or footer on components/Essentials folder
 2.  then go for the first page
