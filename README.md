@@ -18,9 +18,7 @@ Deployment link/: A vercel or any other public hosted link
 Vedio link 
  
  
- .
- .
- .
+https://clipchamp.com/watch/WlkKObHxXpU
  
   approch  
 1. to code navbar or footer on components/Essentials folder
